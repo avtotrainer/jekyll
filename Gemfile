@@ -9,3 +9,7 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag', '~> 2.7.1'
   gem 'jekyll-sitemap', '~> 1.4.0'
 end
+
+group :jekyll do
+  gem 'webrick', '~> 1.8.0' # Замените 'VERSION' на актуальную версию, например, '2.2.7'
+end
